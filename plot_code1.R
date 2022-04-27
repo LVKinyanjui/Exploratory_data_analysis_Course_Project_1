@@ -2,5 +2,6 @@
 hist(x = power_df$Global_active_power,
      col = "red",
      ylab = "Frequency",
-     xlab = "Global Active Power"
+     xlab = "Global Active Power(kilowatts)",
+     main = "Global Active Power"
      )

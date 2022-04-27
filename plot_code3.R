@@ -1,4 +1,5 @@
 # Graph 3
+par(mfrow = c(1,1))
 plot(y = byday_df$Sub_metering_1,
      x = byday_df$Datetime,
      type = "l",
